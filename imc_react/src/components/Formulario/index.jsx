@@ -1,5 +1,4 @@
-import { useState, useEffect } from "react"
-import styles from './Formulario.module.css'
+import { useState } from "react"
 
 const Formulario = (props) => {
     const [peso, setPeso] = useState(0);
@@ -8,9 +7,7 @@ const Formulario = (props) => {
 
 
     const alteraNome = (evento) => {
-        // setNome(evento.target.value);
         setNome(estadoAnterior => {
-            // estadoAnterior = valornovo
             return evento.target.value;
         })
     }
