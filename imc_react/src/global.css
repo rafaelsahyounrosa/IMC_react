@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--corPrincipal);
+    color: var(--corSecundaria);
+    height: 200px;
+    padding-top: 70px;
+    
+}
+
+
+:root {
+    --corPrincipal: #e17055;
+    --corSecundaria: #2d3436;
+}
