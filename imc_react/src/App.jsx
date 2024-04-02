@@ -1,8 +1,6 @@
-import { useState } from "react";
+//import { useState } from "react";
 
 import Formulario from "./components/Formulario";
-// import Perfil from "./components/Perfil";
-// import ReposList from "./components/ReposList";
 
 function App() {
   return (

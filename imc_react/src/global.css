@@ -23,9 +23,28 @@
     text-align: center;
     color: var(--corSecundaria);
     padding-top: 16px;
-    
 }
 
+.table{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 80px;
+    border: #2d3436 solid;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #2d3436; /* Adiciona uma borda de 1px sólida em todas as células */
+    padding: 10px; /* Adiciona um preenchimento interno de 10px em todas as células */
+}
+
+.table th:nth-child(1),
+.table td:nth-child(1) {
+    padding-right: 30px;
+}
 
 :root {
     --corPrincipal: #e17055;
